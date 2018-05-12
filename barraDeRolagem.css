@@ -1,0 +1,23 @@
+/* ---------------- Barra de rolagem Google Chrome---------------- */
+::-webkit-scrollbar {
+  /* largura da barra de rolagem  */
+  width: 1px; 
+  height: 2px;
+  }
+  ::-webkit-scrollbar-track-piece {
+    /* <!-- Cor do fundo da barra de rolagem -->#aebcbf; */
+  background: red;   
+  }
+  ::-webkit-scrollbar-thumb:vertical {
+  height: 5px;
+  /* <!-- Cor da barra de rolagem --> */
+  background: #000; 
+  /* <!-- Arredondamento da barra de rolagem --> */
+  border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb:horizontal {
+    /* <!-- Largura da barra de rolagem na horizontal--> */
+  width: 5px; 
+  /* <!- cor da barra de rolagem na horizontal--> */
+  background-color: #FFA500; 
+  }
